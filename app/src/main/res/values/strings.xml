@@ -3,4 +3,8 @@
     <string name="task_name">Task Name</string>
     <string name="task_description">Task Description</string>
     <string name="btn_done">Done</string>
+    <string name="hint_taskDescription">Task Description</string>
+    <string name="hint_taskName">Task Name</string>
+    <string name="btn_add">Add</string>
+    <string name="todo_title">Todo List</string>
 </resources>

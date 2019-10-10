@@ -4,10 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/todoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_title"
+        android:text="@string/todo_title"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/size_title"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_title"
+        android:layout_toEndOf="@id/todoTextView"
+        android:layout_toRightOf="@id/todoTextView"
+        android:text="Add Task" />
 
     <ListView
         android:id="@+id/tasksListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todoTextView" />
 </RelativeLayout>

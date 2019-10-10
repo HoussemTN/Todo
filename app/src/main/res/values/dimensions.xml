@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="divider_height">2dp</dimen>
+    <dimen name="padding_title">20dp</dimen>
+    <dimen name="size_title">24sp</dimen>
+    <dimen name="size_taskName">20sp</dimen>
+    <dimen name="size_taskDescription">16sp</dimen>
+    <dimen name="height_newTaskName">50dp</dimen>
+    <dimen name="height_newTaskDescription">50dp</dimen>
 </resources>
